@@ -22,7 +22,7 @@ class MyHandler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-Type', 'text/html')
         self.end_headers()
-        self.wfile.write(b'Hello, world!')
+        self.wfile.write(b'Keywords-API')
         
 def by_value(item):
     return item[1]
