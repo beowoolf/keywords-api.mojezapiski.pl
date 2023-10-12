@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+  keywords-api:
+    container_name: keywords-api
+    build: .
+    restart: always
+    ports:
+      - "20334:20334"
